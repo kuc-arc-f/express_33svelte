@@ -13,7 +13,22 @@
 vite + express, svelte SPA + vite 
 
 ***
+* dev-start
+```
+yarn dev
+```
+***
+* build
+```
+yarn build
+
+#or
+npx vite build
+```
+***
 ### blog
+
+https://zenn.dev/knaka0209/scraps/c8e40ce5192efa
 
 ***
 
