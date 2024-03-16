@@ -6,7 +6,7 @@
 
  date    : 2024/01/27
 
- update : 
+ update : 2024/03/15
 
 ***
 
@@ -25,6 +25,17 @@ yarn build
 #or
 npx vite build
 ```
+***
+### tailwindcss
+
+```
+npx tailwindcss -i ./src/main.css -o ./public/static/main.css
+
+#watch-mode
+npx tailwindcss -i ./src/main.css -o ./public/static/main.css --watch
+```
+
+
 ***
 ### blog
 
