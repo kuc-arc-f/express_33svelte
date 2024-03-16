@@ -6,7 +6,7 @@
 
  date    : 2024/01/27
 
- update : 2024/03/15
+ update : 2024/03/15 
 
 ***
 
@@ -39,7 +39,7 @@ npx tailwindcss -i ./src/main.css -o ./public/static/main.css --watch
 ***
 ### blog
 
-https://zenn.dev/knaka0209/scraps/c8e40ce5192efa
+https://zenn.dev/knaka0209/books/b1bd883fb8dd95
 
 ***
 
