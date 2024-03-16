@@ -5,7 +5,7 @@ console.log("#home");
 <!-- -->
 <main>
   <div>
-    <h1>home-11</h1>
+    <h1 class="text-4xl font-bold">Home!</h1>
   </div>
 </main>
 

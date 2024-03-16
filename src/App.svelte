@@ -21,10 +21,12 @@ export const routes = {
 <!-- -->
 <main>
     <Head />
-    <h1>Vite + Svelte</h1>
     <Router {routes} />
     <hr />
 </main>
 
 <style>
 </style>
+<!--
+<h1>Vite + Svelte</h1>
+-->

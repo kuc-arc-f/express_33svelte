@@ -6,9 +6,6 @@ const app = express();
 //
 import Top from './pages/App';
 //
-//import Common from './lib/Common';
-import testRouter from './routes/test'; 
-//import commonRouter from './routes/common';
 //
 app.use(cors())
 app.use(express.json());
@@ -19,16 +16,6 @@ console.log("env=", process.env.NODE_ENV)
 const errorObj = {ret: "NG", messase: "Error"};
 
 // route
-app.use('/api/test', testRouter);
-
-//SPA
-app.get('/test', (req: any, res: any) => {
-  try {
-    res.send("/test-11, OK");
-  } catch (error) {
-    res.sendStatus(500);
-  }
-});
 //SPA
 app.get('/*', (req: any, res: any) => {
   try {
