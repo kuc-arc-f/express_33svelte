@@ -5,7 +5,7 @@ console.log("#about");
 <!-- -->
 <main>
   <div>
-    <h1 class="text-4xl font-bold">About</h1>
+    <h1 class="text-4xl font-bold">About!!!</h1>
   </div>
 </main>
 
