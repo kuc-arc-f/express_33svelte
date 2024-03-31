@@ -1,13 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=develop npx nodemon ./dist/index.js localhost 4000",
-    "dev:test": "NODE_ENV=develop node ./dist/index.js",
-    "build": "rimraf dist && node build.js",
-    "build:css": "npx tailwindcss -i ./src/main.css -o ./public/static/main.css",
+    "dev": "NODE_ENV=develop npx nodemon",
+    "dev:test": "NODE_ENV=develop npx nodemon ./dist/index.js localhost 4000",
+    "build": "rimraf dist && node build.js && npx vite build --mode client",
     "build:test": "vite build && vite build --mode client",
     "watch": "npx vite build --mode client --watch",
-    "watch:css": "npx tailwindcss -i ./src/main.css -o ./public/static/main.css --watch",
     "test": "ts-node src/index.ts"
   },
   "dependencies": {
@@ -29,14 +27,11 @@
     "@types/node": "^18.14.6",
     "@types/react": "^18.2.23",
     "@types/react-dom": "^18.2.8",
-    "autoprefixer": "^10.4.18",
     "nodemon": "^3.0.3",
-    "postcss": "^8.4.35",
     "rimraf": "^3.0.2",
     "svelte": "^4.2.9",
     "svelte-check": "^3.6.3",
     "svelte-spa-router": "^4.0.1",
-    "tailwindcss": "^3.4.1",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"

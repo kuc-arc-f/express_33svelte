@@ -7,11 +7,6 @@ export default function Page() {
     <html>
         <head>
             <title>welcome</title>
-            {(process.env.NODE_ENV === "develop") ? (
-                <link href="/static/main.css" rel="stylesheet" /> 
-            ): (
-                <link href="/public/static/main.css" rel="stylesheet" /> 
-            )} 
         </head>
         <div id="app"></div>
         {(process.env.NODE_ENV === "develop") ? (
@@ -22,5 +17,5 @@ export default function Page() {
     </html>
     );
 }
-/*
+/* 
 */
