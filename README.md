@@ -10,7 +10,7 @@
 
 ***
 
-vite + express, svelte SPA + vite 
+Svelte SPA + express, file base routing
 
 ***
 * dev-start
@@ -24,15 +24,6 @@ yarn build
 
 #or
 npx vite build
-```
-***
-### tailwindcss
-
-```
-npx tailwindcss -i ./src/main.css -o ./public/static/main.css
-
-#watch-mode
-npx tailwindcss -i ./src/main.css -o ./public/static/main.css --watch
 ```
 
 
