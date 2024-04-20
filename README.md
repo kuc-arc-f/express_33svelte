@@ -6,26 +6,20 @@
 
  date    : 2024/01/27
 
- update : 2024/04/06 
+ update : 2024/04/20 
 
 ***
 
 Svelte SPA + express, file base routing
 
-***
-* dev-start
-```
-yarn dev
-```
+
 ***
 * build
 ```
 yarn build
 
-#or
-npx vite build
+yarn dev
 ```
-
 
 ***
 ### blog
