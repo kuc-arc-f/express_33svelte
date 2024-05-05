@@ -18,7 +18,7 @@ user auth,  Turso sample
 * TURSO_AUTH_TOKEN, TURSO_URL set
 
 ```
-VITE_APP_NAME="express_31react"
+VITE_APP_NAME="express_33"
 TURSO_AUTH_TOKEN=""
 TURSO_URL="libsql://"
 ```
