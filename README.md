@@ -1,12 +1,12 @@
 ﻿# express_33svelte
 
- Version: 0.9.3
+ Version: 0.9.4
 
  Author  : Kouji Nakashima / kuc-arc-f.com
 
  date    : 2024/01/27
 
- update : 2024/05/04
+ update : 2024/05/11
 
 ***
 
