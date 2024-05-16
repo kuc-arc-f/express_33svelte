@@ -7,6 +7,8 @@ import HttpCommon from './lib/HttpCommon';
 import CrudIndex from './Zod/CrudIndex';
 import Crud from './Zod/Crud';
 import Validate from './Zod/Validate';
+import DialogBox from '../components/DialogBox.svelte'
+import ErrorDialogBox from '../components/ErrorDialogBox.svelte'
 
 //export let items = [], errors = {};
 export let errors = {};
@@ -16,14 +18,23 @@ const testProc = async function(){
   errors = Validate.formValidate(input);
 console.log(errors);
   if (Object.keys(errors).length > 0) {
-    alert("Error!");
+    const dlg = document.getElementById('errorModalDialog');
+    if(dlg) {
+      //@ts-ignore
+      dlg.showModal();
+    }
+    return;
+  }
+  const modalDialog = document.getElementById('modalDialog');
+  if(modalDialog) {
+    //@ts-ignore
+    modalDialog.showModal();
   }
 }
 </script>
 
 <!-- -->
 <div class="container mx-auto my-2 px-8 bg-white">
-  <hr class="my-2" />
   <h1 class="text-4xl font-bold">Zod test!!</h1>
   <hr class="my-2" />
   <label>Title:
@@ -46,6 +57,9 @@ console.log(errors);
   <hr class="my-2" />
   <button on:click={() => testProc()} class="btn-purple">Test
   </button>
+  <!-- dialog -->
+  <DialogBox message={`OK, Check Complete!!`} />
+  <ErrorDialogBox message={`NG, Check!`} />
 </div>
 
 <style>
