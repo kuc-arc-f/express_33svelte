@@ -6,6 +6,7 @@
     "build": "rimraf dist && npm run build:server && npx vite build --mode client",
     "build:server": "vite build --ssr src/index.ts --outDir dist",
     "build:test": "rimraf dist && node build.js && npx vite build --mode client",
+    "clean": "npx rimraf dist && npx rimraf public/static",
     "watch": "npx vite build --mode client --watch",
     "test": "ts-node src/index.ts"
   },

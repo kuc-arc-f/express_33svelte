@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 //
 import { htmlSend } from './lib/RenderUtil'
-import TopRender from './pages/App';
+import App from './pages/App.svelte';
 //
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -14,7 +14,7 @@ const errorObj = {ret: "NG", messase: "Error"};
 //SPA
 app.get('/*', async (req: any, res: any) => {
   try {
-    const rendered = await TopRender()
+    const rendered = await App.render();
     res.send(htmlSend(rendered.html));
   } catch (error) {
     console.error(error);
