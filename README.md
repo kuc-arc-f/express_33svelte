@@ -2,7 +2,7 @@
 
  Version: 0.9.4
 
- Author  : Kouji Nakashima / kuc-arc-f.com
+ Author  :
 
  date    : 2024/01/27
 
@@ -45,6 +45,16 @@ yarn dev
 ### blog
 
 https://zenn.dev/knaka0209/books/b1bd883fb8dd95/viewer/82bc40
+
+***
+### ChangeLog
+
+* V_0_9_3: fix
+* V_0_9_1: new
+***
+# Licence
+
+* MIT
 
 ***
 
