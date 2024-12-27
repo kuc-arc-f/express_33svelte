@@ -49,6 +49,7 @@ https://zenn.dev/knaka0209/books/b1bd883fb8dd95/viewer/82bc40
 ***
 ### ChangeLog
 
+* V_0_9_4: Svelte 5 change
 * V_0_9_3: fix
 * V_0_9_1: new
 ***

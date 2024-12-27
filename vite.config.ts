@@ -1,5 +1,4 @@
 import pages from '@hono/vite-cloudflare-pages'
-import devServer from '@hono/vite-dev-server'
 import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 //
