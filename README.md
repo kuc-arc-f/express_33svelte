@@ -19,8 +19,6 @@ Svelte SPA + express, file base routing
 
 * simple_auth: simple auth, user data from .env 
 
-* tailwindcss: css sample
-
 * turso_todo: Turso LibSQL sample, todos app
 
 * user_auth: user auth, user add possible
