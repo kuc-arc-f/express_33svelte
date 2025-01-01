@@ -1,12 +1,12 @@
 ﻿# express_33svelte
 
- Version: 0.9.4
+ Version: 0.9.5
 
  Author  :
 
  date    : 2024/01/27
 
- update : 2024/12/28
+ update : 2025/01/01
 
 ***
 
@@ -49,6 +49,7 @@ https://zenn.dev/knaka0209/books/b1bd883fb8dd95/viewer/82bc40
 ***
 ### ChangeLog
 
+* V_0_9_5: tailwindcss 4.0-beta
 * V_0_9_4: Svelte 5 change
 * V_0_9_3: fix
 * V_0_9_1: new
